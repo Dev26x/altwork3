@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Homework 3</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="./images/wppusher-logo copy.png" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li class="navButton"><a href="#">Account</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="hero">
+            <div class="heroContainer">
+                <main>
+                    <section class="top">
+                        <h1>Checkout</h1>
+                    </section>
+                    <section class="middle">
+                        <div class="midContent">
+                            <div class="number">1</div>
+                            <p>Your Basic Information</p>
+                        </div>
+                        <form>
+                            <div class="nameInput">
+                                <div class="name">
+                                    <label for="First_Name">First Name</label>
+                                    <input name="first_name" type="text" placeholder="Jane"/><br>
+                                </div>
+                                <div class="name">
+                                    <label for="Name">Last Name</label>
+                                    <input name="last_name" id="Last_Name" type="text" placeholder="Doe"/>
+                                </div>
+                            </div>
+                            <div class="mailInput">
+                                <label for="email">E-mail</label>
+                                <input name="email" type="email" placeholder="janedoe@example.com"/>
+                            </div>
+                        </form>
+                    </section>
+                    <section class="bottom">
+                        <div class="midContent">
+                            <div class="number">2</div>
+                            <p>Your Payment Information</p>
+                        </div>
+                        <div class="creditCard">
+                            <div class="cardInput">
+                                <label for="creditCard">Credit Card</label>
+                                <input name="number" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" 
+                                maxlength="19" placeholder="Card Number"/>
+                            </div>
+                            <div class="holders">
+                                <p>MM / YY</p>
+                                <p>CVC</p>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="payBottom">
+                        <button class="buy">Buy WP Pusher</button>
+                        <div class="support">
+                            <a class="info" href="#"><img src="./images/Mask.png" alt="question mark icon"/></a>
+                            <p>Need any help? <span class="color">Don’t hesitate to <a href="#">contact______</a> <br>support!</span></p>
+                        </div>
+                        <img class="stripe" src="./images/powered_by_stripe.png" alt="stripe logo"/>
+                    </div>
+                </main>
+                <section class="sideBar">
+                    <section class="sideTop">
+                        <div class="sideTopPart">
+                            <h2>Freelancer</h2>
+                            <div class="fee">
+                                <p class="dollar">$</p>
+                                <p class="amt">99</p>
+                                <p class="year">/ year</p>
+                            </div>
+                            <p class="renew">Automatically renews<br > after 1 year</p>
+                        </div>
+                        <div class="sideTopMid">
+                            <div class="functions">
+                                <img src="./images/Combined Shape.png" alt="blue tick"/>
+                                <p>Use on 5 client sites</p>
+                            </div>
+                            <div class="functions">
+                                <img src="./images/Combined Shape.png" alt="blue tick"/>
+                                <p>Private repositories</p>
+                            </div>
+                            <div class="functions">
+                                <img src="./images/Combined Shape.png" alt="blue tick"/>
+                                <p>Email support</p>
+                            </div>
+                        </div>
+                        <p class="target">Need <span class="bold">20</span> client sites?</p>
+                        <span class="bold">Switch to the <span class="italic">Agency</span>&nbsp;&nbsp;plan.</span>
+                        <hr>
+                    </section>
+                    <section class="sideBottom">
+                        <p>
+                            <span class="italic">
+                                FTP is horrible to deal with. <span class="bold">WP Pusher</span> solves that issue, 
+                                and the customer support is awesome!
+                            </span>
+                        </p>
+                        <div class="profile">
+                            <img class="" src="./images/Bitmap.png" alt="avatar"/>
+                            <p><span class="bold">Kirk Beard</span></p>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </section>
+        <footer>
+            <p>© 2018 WP Pusher IVS  ·  <a href="#">Terms of Service</a></p>
+        </footer>
+    </div>
+</body>
+</html>
